@@ -26,17 +26,17 @@
               (2 0 2 0)
               (0 4 4 0)))))))
 
-; (deftest moving-grid-up
-;   (testing "rows with numbers that repeat"
-;     (is (= '((2 2 4 2)
-;              (0 4 4 4)
-;              (0 0 0 0)
-;              (0 0 0 0))
-;            (move-grid-up
-;             '((0 0 2 2)
-;               (0 2 0 4)
-;               (2 0 2 0)
-;               (0 4 4 0)))))))
+(deftest moving-grid-up
+  (testing "rows with numbers that repeat"
+    (is (= '((2 2 4 2)
+             (0 4 4 4)
+             (0 0 0 0)
+             (0 0 0 0))
+           (move-grid-up
+            '((0 0 2 2)
+              (0 2 0 4)
+              (2 0 2 0)
+              (0 4 4 0)))))))
 
 (deftest moving-grid-down
   (testing "rows with numbers that repeat"

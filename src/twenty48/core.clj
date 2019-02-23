@@ -28,7 +28,6 @@
   "Moves an entire grid down"
   (comp (partial apply map vector) (partial map get-final-for-right-shift) (partial apply map vector)))
 
-(defn move-grid-up
+(def move-grid-up
   "Moves an entire grid up"
-  [grid]
-  )
+  (comp (partial apply map vector) (partial map get-final-set) (partial apply map vector)))
