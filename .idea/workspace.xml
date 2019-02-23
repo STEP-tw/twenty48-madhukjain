@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="927a0703-09e9-47e1-93c7-92cf8156f10e" name="Default Changelist" comment="" />
+    <list default="true" id="927a0703-09e9-47e1-93c7-92cf8156f10e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/twenty48/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/twenty48/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/twenty48/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/twenty48/core_test.clj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
